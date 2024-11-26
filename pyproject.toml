@@ -1,9 +1,9 @@
 [project]
 name = "kggl_support"
 authors = [
-    { name = "KG GL", email = "krishnapriya.p@kggeniuslabs.com"}
+    { name = "KG GL", email = "krishnapriya.p@kggl.com"}
 ]
-description = "Support Desk"
+description = "KG GL Support Service"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

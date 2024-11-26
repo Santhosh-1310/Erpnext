@@ -1,8 +1,8 @@
 app_name = "kggl_support"
-app_title = "KGGL Support Desk"
+app_title = "KG GL Support"
 app_publisher = "KG GL"
-app_description = "Support Desk"
-app_email = "krishnapriya.p@kggeniuslabs.com"
+app_description = "KG GL Support Service"
+app_email = "krishnapriya.p@kggl.com"
 app_license = "gpl-3.0"
 
 # Apps
@@ -15,7 +15,7 @@ app_license = "gpl-3.0"
 # 	{
 # 		"name": "kggl_support",
 # 		"logo": "/assets/kggl_support/logo.png",
-# 		"title": "KGGL Support Desk",
+# 		"title": "KG GL Support",
 # 		"route": "/kggl_support",
 # 		"has_permission": "kggl_support.api.permission.has_app_permission"
 # 	}
