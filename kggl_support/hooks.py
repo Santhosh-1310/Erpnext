@@ -1,7 +1,7 @@
 app_name = "kggl_support"
 app_title = "KGGL Support Desk"
 app_publisher = "KG GL"
-app_description = "Support service "
+app_description = "Support Desk"
 app_email = "krishnapriya.p@kggeniuslabs.com"
 app_license = "gpl-3.0"
 

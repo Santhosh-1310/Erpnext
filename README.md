@@ -1,6 +1,6 @@
 ## KGGL Support Desk
 
-Support service 
+Support Desk
 
 #### License
 

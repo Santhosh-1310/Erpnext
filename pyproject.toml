@@ -3,7 +3,7 @@ name = "kggl_support"
 authors = [
     { name = "KG GL", email = "krishnapriya.p@kggeniuslabs.com"}
 ]
-description = "Support service "
+description = "Support Desk"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
