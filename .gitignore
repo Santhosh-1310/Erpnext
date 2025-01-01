@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .DS_Store
 *.pyc
 *.egg-info
@@ -5,3 +6,24 @@
 tags
 node_modules
 __pycache__
+=======
+*.pyc
+*.py~
+.DS_Store
+conf.py
+locale
+latest_updates.json
+.wnf-lang-status
+*.egg-info
+dist/
+erpnext/public/dist
+erpnext/docs/current
+*.swp
+*.swo
+__pycache__
+*~
+.idea/
+.vscode/
+node_modules/
+.backportrc.json
+>>>>>>> 005df08 (chore(release): Bumped to Version 15.47.3)
