@@ -4,7 +4,13 @@ app_publisher = "KG GL"
 app_description = "KG GL Support Service"
 app_email = "krishnapriya.p@kggl.com"
 app_license = "gpl-3.0"
+import frappe
 
+doc_events = {
+    "Lead": {
+        "after_insert": "kggl_support.apilead.create_lead_notification"  # Call the function after a lead is inserted
+    }
+}
 # Apps
 # ------------------
 
