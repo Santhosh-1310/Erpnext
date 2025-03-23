@@ -18,11 +18,10 @@ class Prospect(CRMNote):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
-		from frappe.types import DF
-
 		from erpnext.crm.doctype.crm_note.crm_note import CRMNote
 		from erpnext.crm.doctype.prospect_lead.prospect_lead import ProspectLead
 		from erpnext.crm.doctype.prospect_opportunity.prospect_opportunity import ProspectOpportunity
+		from frappe.types import DF
 
 		annual_revenue: DF.Currency
 		company: DF.Link

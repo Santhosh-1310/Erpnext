@@ -17,7 +17,7 @@ class SLAFulfilledOnStatus(Document):
 		parent: DF.Data
 		parentfield: DF.Data
 		parenttype: DF.Data
-		status: DF.Literal
+		status: DF.Literal["Work in progress"]
 	# end: auto-generated types
 
 	pass

@@ -1,0 +1,178 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-27 11:29:51.589548",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "mpi_defect_map_section",
+  "product_code",
+  "item_description",
+  "column_break_ibzn",
+  "drawing_number",
+  "date",
+  "section_break_vysc",
+  "image",
+  "bottom_view_image",
+  "column_break_lbgs",
+  "top_view",
+  "top_view_image",
+  "section_break_oxmt",
+  "lf_view",
+  "lf_view_image",
+  "column_break_gwia",
+  "rh_view",
+  "rh_view_image",
+  "section_break_lids",
+  "inspected_by",
+  "column_break_xyad",
+  "approved_by",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "mpi_defect_map_section",
+   "fieldtype": "Section Break",
+   "label": "MPI DEFECT MAP"
+  },
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Data",
+   "label": "Product Code"
+  },
+  {
+   "fieldname": "item_description",
+   "fieldtype": "Data",
+   "label": "Item Description"
+  },
+  {
+   "fieldname": "column_break_ibzn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "drawing_number",
+   "fieldtype": "Data",
+   "label": "Drawing Number"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_vysc",
+   "fieldtype": "Section Break",
+   "label": "Image Views"
+  },
+  {
+   "fieldname": "column_break_lbgs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bottom_view_image",
+   "fieldtype": "Image",
+   "label": "Bottom View Image",
+   "options": "image"
+  },
+  {
+   "fieldname": "section_break_lids",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "inspected_by",
+   "fieldtype": "Data",
+   "label": "Inspected By"
+  },
+  {
+   "fieldname": "column_break_xyad",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Data",
+   "label": "Approved By"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Bottom View"
+  },
+  {
+   "fieldname": "top_view",
+   "fieldtype": "Attach Image",
+   "label": "Top View "
+  },
+  {
+   "fieldname": "top_view_image",
+   "fieldtype": "Image",
+   "label": "Top View Image ",
+   "options": "top_view"
+  },
+  {
+   "fieldname": "section_break_oxmt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lf_view",
+   "fieldtype": "Attach Image",
+   "label": "LF View  "
+  },
+  {
+   "fieldname": "lf_view_image",
+   "fieldtype": "Image",
+   "label": "LF View Image ",
+   "options": "lf_view"
+  },
+  {
+   "fieldname": "column_break_gwia",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rh_view",
+   "fieldtype": "Attach Image",
+   "label": "RH View  "
+  },
+  {
+   "fieldname": "rh_view_image",
+   "fieldtype": "Image",
+   "label": "RH View Image  ",
+   "options": "rh_view"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Quality Testing",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-02-27 13:17:44.158635",
+ "modified_by": "Administrator",
+ "module": "Quality Management",
+ "name": "Quality Testing",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

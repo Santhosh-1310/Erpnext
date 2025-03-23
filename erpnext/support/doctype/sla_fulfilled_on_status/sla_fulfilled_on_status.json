@@ -13,12 +13,13 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Status",
+   "options": "Work in progress",
    "reqd": 1
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2021-05-26 21:11:29.176369",
+ "modified": "2025-03-05 14:09:41.550611",
  "modified_by": "Administrator",
  "module": "Support",
  "name": "SLA Fulfilled On Status",
@@ -27,5 +28,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }

@@ -1,20 +1,22 @@
 {
+ "color": "#db1a1a",
  "creation": "2020-07-08 22:40:22.575086",
  "docstatus": 0,
  "doctype": "Number Card",
  "document_type": "Work Order",
  "dynamic_filters_json": "[[\"Work Order\",\"company\",\"=\",\"frappe.defaults.get_user_default(\\\"Company\\\")\"]]",
- "filters_json": "[[\"Work Order\",\"status\",\"=\",\"Completed\"],[\"Work Order\",\"docstatus\",\"=\",1],[\"Work Order\",\"creation\",\"between\",[\"2020-06-08\",\"2020-07-08\"]]]",
+ "filters_json": "[]",
  "function": "Count",
- "idx": 0,
- "is_public": 1,
+ "idx": 2,
+ "is_public": 0,
  "is_standard": 1,
  "label": "Monthly Completed Work Orders",
- "modified": "2020-07-09 12:22:54.809813",
+ "modified": "2025-02-07 17:53:03.858612",
  "modified_by": "Administrator",
  "module": "Manufacturing",
  "name": "Monthly Completed Work Order",
  "owner": "Administrator",
  "show_percentage_stats": 1,
- "stats_time_interval": "Weekly"
+ "stats_time_interval": "Monthly",
+ "type": "Document Type"
 }

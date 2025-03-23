@@ -192,8 +192,8 @@
    "type": "Link"
   }
  ],
- "modified": "2023-07-04 14:39:08.935853",
- "modified_by": "Administrator",
+ "modified": "2025-03-21 14:26:34.423073",
+ "modified_by": "employee1@gmail.com",
  "module": "Projects",
  "name": "Projects",
  "number_cards": [],
@@ -203,7 +203,7 @@
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 11.0,
+ "sequence_id": 22.0,
  "shortcuts": [
   {
    "color": "Grey",

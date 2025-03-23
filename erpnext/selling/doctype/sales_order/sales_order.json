@@ -20,6 +20,7 @@
   "column_break_7",
   "transaction_date",
   "delivery_date",
+  "customer_gstin",
   "column_break1",
   "po_no",
   "po_date",
@@ -203,7 +204,7 @@
    "no_copy": 1,
    "oldfieldname": "naming_series",
    "oldfieldtype": "Select",
-   "options": "SAL-ORD-.YYYY.-",
+   "options": "AIS-ORD-.YYYY.-",
    "print_hide": 1,
    "reqd": 1,
    "set_only_once": 1
@@ -1648,13 +1649,19 @@
    "label": "Company Contact Person",
    "options": "Contact",
    "print_hide": 1
+  },
+  {
+   "fieldname": "customer_gstin",
+   "fieldtype": "Data",
+   "label": "Customer GSTIN",
+   "reqd": 1
   }
  ],
  "icon": "fa fa-file-text",
  "idx": 105,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-11-26 12:42:06.872527",
+ "modified": "2025-02-15 12:46:00.686902",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Sales Order",

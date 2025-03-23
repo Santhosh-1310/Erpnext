@@ -3,6 +3,7 @@
  "allow_import": 1,
  "autoname": "naming_series:",
  "creation": "2022-01-25 10:29:57.771398",
+ "default_email_template": "Sales invoices Email format",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -19,6 +20,7 @@
   "posting_time",
   "set_posting_time",
   "due_date",
+  "customer_gstin",
   "column_break_14",
   "is_pos",
   "pos_profile",
@@ -246,7 +248,7 @@
    "no_copy": 1,
    "oldfieldname": "naming_series",
    "oldfieldtype": "Select",
-   "options": "ACC-SINV-.YYYY.-\nACC-SINV-RET-.YYYY.-",
+   "options": "AIS-SINV-.YYYY.-\nAIS-SINV-RET-.YYYY.-",
    "print_hide": 1,
    "reqd": 1,
    "set_only_once": 1
@@ -2174,6 +2176,12 @@
    "label": "Company Contact Person",
    "options": "Contact",
    "print_hide": 1
+  },
+  {
+   "fieldname": "customer_gstin",
+   "fieldtype": "Data",
+   "label": "Customer GSTIN",
+   "reqd": 1
   }
  ],
  "icon": "fa fa-file-text",
@@ -2186,7 +2194,7 @@
    "link_fieldname": "consolidated_invoice"
   }
  ],
- "modified": "2024-11-26 12:34:09.110690",
+ "modified": "2025-03-20 22:33:11.006729",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Sales Invoice",

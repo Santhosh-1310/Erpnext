@@ -216,9 +216,10 @@
    "options": "CRM Note"
   }
  ],
+ "in_create": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-13 12:29:33.674561",
+ "modified": "2025-03-06 17:37:57.635026",
  "modified_by": "Administrator",
  "module": "CRM",
  "name": "Prospect",
@@ -258,6 +259,7 @@
    "share": 1
   }
  ],
+ "read_only": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

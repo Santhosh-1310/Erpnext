@@ -36,11 +36,8 @@ class EmailDigest(Document):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
+		from erpnext.setup.doctype.email_digest_recipient.email_digest_recipient import EmailDigestRecipient
 		from frappe.types import DF
-
-		from erpnext.setup.doctype.email_digest_recipient.email_digest_recipient import (
-			EmailDigestRecipient,
-		)
 
 		add_quote: DF.Check
 		bank_balance: DF.Check
@@ -55,6 +52,7 @@ class EmailDigest(Document):
 		income_year_to_date: DF.Check
 		invoiced_amount: DF.Check
 		issue: DF.Check
+		lead: DF.Check
 		new_quotations: DF.Check
 		next_send: DF.Data | None
 		notifications: DF.Check
