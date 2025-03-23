@@ -10,12 +10,7 @@ gpl-3.0
 <div align="center">
     <a href="https://erpnext.com">
         
-    </a>
-    <h2>ERPNext</h2>
-    <p align="center">
-        <p>ERP made simple</p>
-    </p>
-
+  
 
 
 </div>
